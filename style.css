@@ -1,5 +1,80 @@
+:root {
+    --primary-color: #18ffff;
+    --secondary-color: #16213E;
+
+}
+
+body {
+    margin: 0;
+    overflow: scroll;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+nav {
+    text-align: center;
+    padding: 1rem;
+    font-size: 1rem;
+    background-color: var(--primary-color);
+}
+
+main {
+    margin: auto;
+    max-width: 600px;
+    padding: 1px;
+}
+
+textarea {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    min-height: 20vh;
+    margin-top: 1rem;
+    font-size: large;
+    font-family: inherit;
+
+}
+button {
+    background-color: var(--primary-color);
+    border: none;
+    margin: 1rem 0rem;
+    padding: 1rem 2rem;
+    font-size: large;
+}
+button:hover {
+    background-color: white;
+    border: 3px solid var(--primary-color);
+    cursor: pointer;
+    border-radius: 10px;
+}
+div{
+    font-size: 1.3rem;
+}
+
 #output{
-    border: 2px solid black;
-    height: 10vh;
-    max-width: 700px;
+    box-sizing: border-box;
+    width: 100%;
+    min-height: 10vh;
+    max-height: 20vh;
+    overflow: scroll;
+    border: 1px solid var(--secondary-color);
+    margin-top: 1rem;
+}
+footer {
+position: fixed;
+font-size: larger;
+bottom: 0;
+width: 100%;
+padding: 1rem;
+background-color: var(--primary-color);
+text-align: center;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
 }
